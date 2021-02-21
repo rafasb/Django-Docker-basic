@@ -22,3 +22,9 @@ Finalmente será necesario editar el fichero .gitignore para adecuar el nombre d
 ```bash
 code/app/__pycache__
 ```
+
+Ahora podemos arrancar el proyecto con:
+
+```bash
+docker-compose up -d --build
+```
