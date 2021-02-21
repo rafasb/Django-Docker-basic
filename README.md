@@ -12,6 +12,8 @@ docker-compose run web django-admin startproject app .
 
 Será necesario editar el fichero settings.py para que permita acceder desde cualquier cliente:
 
+NOTA: Los ficheros creados por la ejecución del contenedor serán propiedad de root (en Linux) como paso previo hay que apropiarse de los mismos con `sudo chown -R $USER:$USER .`
+
 ```bash
 vi code/app/settings.py
 ### Buscar y editar el valor
